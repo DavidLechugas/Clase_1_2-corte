@@ -1,0 +1,47 @@
+/* selector universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.section{
+    text-align: justify;
+}
+.imagen img{
+    width: 100%;
+}
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 16px 16px;
+    color: white;
+}
+header nav ul li{
+    float: left;
+}
+
+header{
+    background-color: rgb(1, 59, 4);
+}
+/* pseudoelementos */
+header nav ul li a:hover{
+    background-color: rgb(0, 170, 0);
+    color: rgb(0, 0, 0);
+}
+
+footer{
+   background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
